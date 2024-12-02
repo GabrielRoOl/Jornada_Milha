@@ -8,4 +8,6 @@ import { Component, Input } from '@angular/core';
 export class BannerComponent {
   @Input() src: string = ''
   @Input() alt: string = ''
+  @Input() banne2: string = ''
+  @Input() alt2: string = ''
 }
